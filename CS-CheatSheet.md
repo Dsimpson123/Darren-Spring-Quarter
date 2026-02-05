@@ -59,6 +59,7 @@ Nahum - What is a Variable? What defines a 'good' and 'bad' name for a variable?
 A variable is a container for data, that can be used later. A good variable is one that has a name thats clear and makes sense for the data inside, whereas a bad variable would have a nonclear name that doesn't make sense for the data inside. An example of a good variable would be 'points = 4' as the name is clear and make sense for its inside data, a bbad one would be 'stats = brandon', its a bad variable due to it's name not matching the inside data.
 
 Xavier - What is a Function? When is it useful to use them?
+A function is a set of instructions in a program that does a certain task. You can use it whenever you need the same thing done again instead of rewriting the code. Functions are useful because they make your code cleaner, easier to understand, and quicker to fix if something goes wrong.
 
 A pre-made set of code that you can re-use.
 
@@ -70,10 +71,13 @@ A for loop is a control flow statement in coding that allows a specfic block of 
 Jeffrey - What is a Bug? What does it mean to Debug your code? Give an example of a type of bug/error that can occur in code. A bug is a probelm in a code that can be big or small, its called a bug because a mans device was not woring and it turned out to have a literal bug in it. A common bug could be putting the same thing twice but not the same same. For example if you put class:english  you have to put it EXACTLY like that, you can't put class:English.
 
 Isaiah - What is a Class? What is an Object?
+A class is like a blueprint or template that describes what something is and what it can do. An object is a real example of that class that you can actually use in a program. You use classes and objects to organize your code and model real-life things in a clear way.
 
 Tay - What is a Library?
+A library in coding is a bunch of already-made code that you can use in your program. It helps you get things done faster without having to write everything yourself. Using libraries makes coding easier and more efficient.
 
 Braylen - What is a List? What are the rules surrounding a list?
+A list is used to hold multiple items in one variable so everything stays organized. The items are stored in a specific order, and each one has a position number that usually starts at 0. You have to follow the correct format for the language you’re using so the list works properly.
 
 Jarmuari - What are the Arithmetic Operators? What do each do? Write a sample line of code that uses one of these operators
 
@@ -96,6 +100,7 @@ Darren - What is a Programming Language? Why do multiple programming languages e
 Darren- 5 different programing languages are Java, JavaScript, python, switft, python, C++. A programing language is a  way for humans to write instructions that a computer can understand and  to perform tasks, such as solving problems, running apps. Having many languages lets programmers choose the one that best fits the job. For example two different languages are python and java script. Python focuses more on data and automation while JavaScript focuses on interactive websites.
 
 Walter - What is a Comment? Are comments mandatory in code? Why do programmers use them? Write a comment for this line of python code explaining what the code is doing --> myName = "Devon"
+A comment is a note in your code that explains what a part of your program does, but it doesn’t actually run. You don’t have to write comments, but they’re useful because they make your code easier to understand for you and other programmers.
 
 
 
@@ -134,3 +139,10 @@ polymorphism: Same action name, different behavior
 
 Kauri - What are the Comparison Operators? What do each of them mean? What is the Assignment Operator? What does it do?
 Comparison Operators are used to compare two values
+== checks if two values are equal
+!= checks if two values are not equal
+>=checks if the left value is greater than the right
+< checks if the left value is less than the right
+>= checks if the left value is greater than or equal to the right
+<= checks if the left value is less than or equal to the right
+The assignment operator (=) assigns the value of the right-hand expression to the variable on the left-hand side.
