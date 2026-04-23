@@ -11,7 +11,7 @@ struct TextViewModifiers: View {
     var body: some View {
         
         // Modify Text
-        Text("Hello, Geniuses!")
+        Text("Hello, Welcome to my App!!")
             .font(.headline) // Sets the font of the text
             .foregroundColor(.green) // Sets the color of the text
             .padding() // Adds padding around the text

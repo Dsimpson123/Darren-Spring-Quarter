@@ -11,15 +11,15 @@ struct MainContentView: View {
     var body: some View {
         
         VStack {
-            Image("Cameron Warner")
+            Image("Raiders")
                 .resizable() // Needed to resize Images
                 .frame(width: 200, height: 200)
 //                .aspectRatio(contentMode: .fit) // Fits Image to the Device's screen
                 .clipShape(Circle()) // Clips Image into shape
             
-            Text("Cameron Warner")
+            Text("Darren Simpson")
             
-            Image(systemName: "lightbulb") // Use SF Symbols
+            Image(systemName: "figure.roll") // Use SF Symbols
                 .font(.title)
 //                .symbolEffect(.bounce.up.byLayer, options: .repeat(.continuous)) //Symbol Effects
             

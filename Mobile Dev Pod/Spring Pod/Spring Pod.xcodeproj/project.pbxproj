@@ -11,11 +11,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2341813D2F40FC8C00B4DF3C /* Spring Pod */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Spring Pod";
-			sourceTree = "<group>";
-		};
 		2341816C2F41007E00B4DF3C /* SwiftUI Pod */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "SwiftUI Pod";
@@ -38,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				2341816C2F41007E00B4DF3C /* SwiftUI Pod */,
-				2341813D2F40FC8C00B4DF3C /* Spring Pod */,
 				2341813C2F40FC8C00B4DF3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +61,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2341813D2F40FC8C00B4DF3C /* Spring Pod */,
 				2341816C2F41007E00B4DF3C /* SwiftUI Pod */,
 			);
 			name = "Spring Pod";

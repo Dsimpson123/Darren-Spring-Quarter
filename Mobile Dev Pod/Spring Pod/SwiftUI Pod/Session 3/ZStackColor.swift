@@ -15,9 +15,6 @@ struct ZStackColor: View {
         ZStack {
             ForEach(1..<colors.count) {
                 Rectangle()
-//                Circle()
-//                Eclipse()
-//                Capsule()
                     .fill(colors[$0])
                     .frame(width: 100, height: 100)
                     .offset(x: CGFloat($0) * 10.0,

@@ -14,6 +14,7 @@ struct Padding_SpacingView: View {
             Spacer()
             Circle()
                 .padding()
+            Spacer()
         }// End of VStack
 
     }
