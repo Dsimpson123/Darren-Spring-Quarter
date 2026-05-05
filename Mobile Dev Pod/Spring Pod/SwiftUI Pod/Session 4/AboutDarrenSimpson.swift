@@ -11,7 +11,7 @@ struct AboutMisterCam: View {
     
     var body: some View {
         VStack{
-            Image("Cameron Warner")
+            Image("Cowboy")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
@@ -19,7 +19,7 @@ struct AboutMisterCam: View {
 
             HStack  {
                 Image(systemName: "lightbulb")
-                Text("Mister Cam")
+                Text("Darren Simpson")
                     .font(.largeTitle)
                     .bold()
                 Image(systemName: "lightbulb.max")
@@ -29,7 +29,7 @@ struct AboutMisterCam: View {
                 .padding()
             
             ScrollView() {
-                Text("The Hidden Genius Project trains and mentors Black male youth in technology creation, entrepreneurship, and leadership skills to transform their lives and communities.")
+                Text("Hello, Welcome to my App")
                     .padding()
                     .italic()
                     .font(.headline)
