@@ -1,27 +1,40 @@
- using UnityEngine;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField, Tooltip(" A reference to the player's rigid body component. Used to apply the movement force")]
-    private Rigidbody rb;
+    //Create variables
+//   [SerializeField, Tooltip("The player's Rigidbody, can be used to apply movement.") ]
 
-    [SerializeField, Tooltip(" A multiplier for how fast the player moves")]
-    private float moveSpeed = 7f;
+private Rigidbody rb;
 
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
+[SerializeField, Tooltip("Movement speed multiplier") ]
 
-    private void FixedUpdate() 
-    {
+private float moveSpeed = 7f;
 
-        float xInput = Input.GetAxis("Horizontal");
+private void Awake()
+{
+        //Initialize Variables
+rb = GetComponent<Rigidbody>();
+}
 
-        float zInput = Input.GetAxis("Vertical");
+private void FixedUpdate()
+{
+        //Gather input from player
+    float xInput = Input.GetAxis("Horizontal");// Left & Right movement
 
-        Vector3 moveDir = new Vector3(xInput, 0, zInput);
+float zInput = Input.GetAxis("Vertical");// Forward & Back Movement
+        //Convert input into move direction
+Vector3 moveDir = new Vector3(xInput, 0, zInput);
 
-        rb.AddForce(moveDir * moveSpeed * Time.deltaTime);
+
+
+        //Apply Input into movement on the player character.
+rb.AddForce(moveDir * moveSpeed * Time.deltaTime ,ForceMode.Impulse);
+
+        //Check if player fell off the map
+{
+            //Reset the game
+    GameManager.Instance.Invoke("GameOver", 2f);
+}
     }
 }
