@@ -34,7 +34,7 @@ rb.AddForce(moveDir * moveSpeed * Time.deltaTime ,ForceMode.Impulse);
         //Check if player fell off the map
 {
             //Reset the game
-    GameManager.Instance.Invoke("GameOver", 2f);
+    //GameManager.Instance.Invoke("GameOver", 2f);
 }
     }
 }

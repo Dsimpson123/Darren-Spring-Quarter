@@ -2,15 +2,12 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Transform player;
+    public Vector3 positionOffset;
 
-    // Update is called once per frame
-    void Update()
+    public void LateUpdate()
     {
-        
+        if (player != null ) transform.position = player.position +positionOffset;
     }
+    
 }
