@@ -13,7 +13,7 @@ struct MisterCamSportsFavs: View {
             VStack{
                 HStack  {
                     Image(systemName: "figure.walk")
-                    Text("Cam's Sport Teams")
+                    Text("Darren's Resume")
                         .font(.largeTitle)
                         .bold()
                     Image(systemName: "figure.equestrian.sports")
@@ -23,14 +23,12 @@ struct MisterCamSportsFavs: View {
                     .padding()
                 
                 ScrollView() {
-                    Text("The Hidden Genius Project trains and mentors Black male youth in technology creation, entrepreneurship, and leadership skills to transform their lives and communities.")
+                    Text(" My name is Darren Simpson, I am from Oakland, Califorinia I like playing video games and I go to Hidden Genius.")
                         .padding()
                         .italic()
                         .font(.headline)
                     
-                    Text("""
-                    Mr. Cam enjoys sports. He watches backetball; G-OKC! During the football season you can hear him screaming, "How 'Bout Dem Cowboys!" Other than that he roots for his hometeams, St. Louis Cardnials and the St. Louis Blues.  Did you know STL also has a scoccer team now too?! 
-                    """)
+                    Text("Welcome")
                     .padding()
                 } // End of ScrollView
                 
@@ -46,7 +44,7 @@ struct MisterCamSportsFavs: View {
                 Image("Cowboys")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                Text("How 'Bout Dem Cowboys")
+                Text("")
                     .font(.caption)
                 
                 Image("STLSports")

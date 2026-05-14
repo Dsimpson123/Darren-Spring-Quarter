@@ -11,14 +11,9 @@ import SwiftUI
 struct SwiftUI_PodApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//            NavigationScreen()
-//            BasicNavigationView()
-            //AccessibilityModifiers()
-            MainContentView()
+//            Session5()
             
         }
     }
 }
 
-//Retrieved from https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app

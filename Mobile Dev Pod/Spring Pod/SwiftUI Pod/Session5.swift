@@ -12,8 +12,8 @@ struct Session5: View {
        
         NavigationStack {
             VStack() {
-                NavigationLink("About Me") {
-                    Session3()
+                NavigationLink("Welcome to My App") {
+                    ContentView()
                 }
                 .navigationTitle("Nav Link Practice")
                 .navigationBarTitleDisplayMode(.inline)
